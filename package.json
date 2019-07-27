@@ -1,7 +1,7 @@
 {
     "name": "super-clay",
     "version": "1.0.0",
-    "description": "一个插件化的后端框架",
+    "description": "一个对koa进行插件化扩展的web框架",
     "main": "index.js",
     "scripts": {
         "test": "jest",
