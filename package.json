@@ -1,5 +1,5 @@
 {
-    "name": "sprubbi",
+    "name": "super-clay",
     "version": "1.0.0",
     "description": "一个插件化的后端框架",
     "main": "index.js",
@@ -9,8 +9,8 @@
         "lint": "eslint index.js lib test"
     },
     "keywords": [
-        "tool",
-        "lib",
+        "super-clay",
+        "super clay",
         "koa",
         "egg"
     ],
@@ -47,6 +47,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Degfy/rubbi.git"
+        "url": "git+https://github.com/Degfy/super-clay.git"
     }
 }
