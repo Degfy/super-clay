@@ -41,6 +41,22 @@ describe('plugin.js', () => {
         } catch (err) {
             assert.equal(err instanceof TypeError, true);
         }
+
+        // 3.         
+        class TestPlugin3 extends Plugin {
+            appMount(mountObj, mountName, app) {
+                app.test(this);
+            }
+        }
+        const plugin3 = new TestPlugin3();
+        const mountProperties3 = plugin3.getMountProperty();
+
+        const appMount3 = mountProperties3.appMount;
+        appMount3(undefined, undefined, {
+            test(instance) {
+                assert.equal(instance, plugin3);
+            },
+        });
     });
 
 });

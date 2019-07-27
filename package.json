@@ -25,7 +25,8 @@
     ],
     "jest": {
         "testMatch": [
-            "**/test/!(helpers)/*.js"
+            "**/test/!(helpers)/*.js",
+            "**/test/index.js"
         ],
         "coverageReporters": [
             "text-summary",
